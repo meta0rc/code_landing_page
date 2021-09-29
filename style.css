@@ -246,7 +246,7 @@ footer ul li a  {
 }
 .differ { font-weight: 400; text-transform: uppercase; font-size: 16px;}
 .space { justify-content: space-evenly; }
-#gm_maps { max-width: 1349px; height:  auto;}
+#gm_maps { height:  auto; max-width: 100%;}
 #gm_maps iframe { width: 100%;}
 .copyWrite { padding: 20px 0; background: rgb(15, 15, 15);}
 .wwp {position: fixed;right: 2%;bottom: 2%;z-index: 999;}
@@ -283,6 +283,9 @@ footer ul li a  {
         .collum h2{ 
         font-size: 30px;
         }
+        #other h2{
+            font-size: 30px;
+        }
         .cause img{
             width: 172px;
             top: 0;
@@ -302,7 +305,36 @@ footer ul li a  {
         .logo img{
             margin: 0;
         }
+        .left {
+            justify-content: center !important;
+        }
+        #other{ 
+            padding-top: 20px;
+        }
+}
+#other{
+    background: none;
+}
+#other img{ 
+    max-height: 470px;
+}
+#other h2 { 
+    color: #000;
+    font-size: 2em;
 }
 .btn:hover{
 background: #25d366; 
 cursor: pointer;}
+
+.de{
+    color: tomato;
+    text-decoration: line-through;
+}
+.to{
+    color: green;
+    font-weight: bold;
+}
+.left{ 
+    justify-content: left;
+    margin-top: 20px;
+}
